@@ -14,7 +14,7 @@
                             <h5 class=""> Platform layanan reparasi kendaraan bermotor yang menyediakan fitur memesan montir dan mencari bengkel terdekat secara online</h5>
                             <div class=" d-flex align-items-center ">
                                 <a class="primary_btn " href="/login "><span>Login</span></a>
-                                <a class="primary_btn tr-bg " href="/register"><span>Daftar</span></a>
+                                <a class="primary_btn tr-bg " href="/register "><span>Daftar</span></a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         <p>
                             Menghubungkan client dengan montir terdekat dengan satu apikasi. Memberikan solusi yang terbaik untuk memperbaiki kendaraan bermotor apabila terjadi kerusakan tiba-tiba dengan cepat dan mudah
                         </p>
-                        <a class="primary_btn" href="#"><span>Selengkapnya</span></a>
+                        <span class="primary_btn" href="#"><span>Selengkapnya</span></span>
                     </div>
                 </div>
             </div>
@@ -73,35 +73,35 @@
             <div class="row feature_inner">
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s1.png" alt="">
+                        <img src="img/services/s1.png" alt="" width="70px" height="67px">
                         <h4>Cuci </h4>
                         <p>Layanan pencucian reguler mobil dan motor</p>
-                        <a class="primary_btn" href="#"><span>Selengkapnya</span></a>
+                        <span class="primary_btn" href="#"><span>Selengkapnya</span></span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s2.png" alt="">
+                        <img src="img/services/s2.png" alt="" width="70px" height="67px">
                         <h4>Servis kendaraan</h4>
                         <p>Layanan pengecekan masalah pada mobil dan motor </p>
-                        <a class="primary_btn" href="#"><span>Selengkapnya</span></a>
+                        <span class=" primary_btn " href="# "><span>Selengkapnya</span></span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
-                        <img src="img/services/s3.png" alt="">
-                        <h4>Penggantian Aki</h4>
-                        <p>Layanan penggantian aki untuk motor</p>
-                        <a class="primary_btn" href="#"><span>Selengkapnya</span></a>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="feature_item ">
+                        <img src="img/services/s3.png " alt="" width="70px" height="67px">
+                        <h4>Penggantian Accu</h4>
+                        <p>Layanan penggantian accu untuk kendaraan</p>
+                        <span class="primary_btn " href="# "><span>Selengkapnya</span></span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
-                        <img src="img/services/s4.png" alt="">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="feature_item ">
+                        <img src="img/services/s4.png " alt="" width="70px" height="67px">
                         <h4>Bantuan Darurat</h4>
                         <p>Layanan untuk masalah darurat pada mobil</p>
 
-                        <a class="primary_btn" href="#"><span>Selengkapnya</span></a>
+                        <span class="primary_btn " href="# "><span>Selengkapnya</span></span>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,6 @@ import Navbar from '../views/layouts/Navbar.vue'
 import Footer from '../views/layouts/Footer.vue'
 import Blog from '../views/Blog.vue'
 import About from '../views/About.vue'
-import SingleBlog from '../views/SingleBlog.vue'
 import Contact from '../views/Contact.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
@@ -13,6 +12,17 @@ import LoginMontir from '../views/LoginMontir.vue'
 import LoginCustomer from '../views/LoginCustomer.vue'
 import RegisterMontir from '../views/RegisterMontir.vue'
 import RegisterCustomer from '../views/RegisterCustomer.vue'
+import Cuci from '../views/Cuci.vue'
+import BantuanDarurat from '../views/BantuanDarurat.vue'
+import PenggantianAki from '../views/PenggantianAki.vue'
+import Servis from '../views/Servis.vue'
+import Montir from '../views/Montir.vue'
+import Sidebar from '../views/layouts/Sidebar.vue'
+import NavbarMontir from '../views/layouts/NavbarMontir.vue'
+import AcceptJob from '../views/AcceptJob.vue'
+import Riwayat from '../views/Riwayat.vue'
+
+
 
 
 
@@ -52,15 +62,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    components: {default: Contact, header: Navbar, footer: Footer},
-    // meta: { 
-    //   requiresAuth: true
-    // }
-  },
-  {
-    path: '/singleblog',
-    name: 'singleblog',
-    components: {default: SingleBlog, header: Navbar, footer: Footer},
+    components: {default: Contact, header: Navbar},
     // meta: { 
     //   requiresAuth: true
     // }
@@ -113,14 +115,62 @@ const routes = [
     //   requiresAuth: true
     // }
   },
-  // {
-  //   path: '/montir',
-  //   name: 'montir',
-  //   components: {default: Montir, sidebar: Sidebar},
-  //   // meta: { 
-  //   //   requiresAuth: true
-  //   // }
-  // }
+  {
+    path: '/cuci',
+    name: 'cuci',
+    components: {default: Cuci, header: Navbar, footer: Footer},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/servis',
+    name: 'servis',
+    components: {default: Servis, header: Navbar, footer: Footer},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/penggantian_aki',
+    name: 'penggantian_aki',
+    components: {default: PenggantianAki, header: Navbar, footer: Footer},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/bantuan_darurat',
+    name: 'bantuan_darurat',
+    components: {default: BantuanDarurat, header: Navbar, footer: Footer},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/montir',
+    name: 'montir',
+    components: {default: Montir},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/acceptjob',
+    name: 'acceptjob',
+    components: {default: AcceptJob},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  },
+  {
+    path: '/riwayat',
+    name: 'riwayat',
+    components: {default: Riwayat},
+    // meta: { 
+    //   requiresAuth: true
+    // }
+  }
 ]
 
 const router = new VueRouter({

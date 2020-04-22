@@ -30,10 +30,10 @@
                         <button type="submit" class="btn btn-primary btn-block" id="button1"> Masuk <a href="montir.html"></a></button>
                     </div> -->
                     <div class="submit">
-                        <a class="primary_btn" href="montir.html"><span>Submit</span></a>
+                        <a class="primary_btn" href="/montir"><span>Submit</span></a>
                     </div>
                     <div class="text-center">
-                        <p>Belum memiliki akun ? <a href="register_montir.html" class="nav-link text nav-items">Klik Disini !</a></p>
+                        <p>Belum memiliki akun ? <a href="/registermontir" class="nav-link text nav-items">Klik Disini !</a></p>
                     </div>
 
                     <!-- <div class="input-box"><button>MASUK</button>
